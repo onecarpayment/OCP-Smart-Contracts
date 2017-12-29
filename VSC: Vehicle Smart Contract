@@ -3,10 +3,10 @@
 *framework in using Smart Contracts within the OCP network and * 
 *command structure in the development of lending and insurance *
 *instruments in the automotive fintech landscape. Enjoy-Rudy :P*
-*							                                                 *
-*		        OneCarPayment Vehicle Services, Inc.       	       *
-*		            VSC: Vehicle Smart Contract 		               *
-*							                                                 *
+*							       *
+*	   OneCarPayment Vehicle Services, Inc.       	       *
+*	      VSC: Vehicle Smart Contract 	               *
+*						               *
 ****************************************************************
 
 This smart contract holds the members vehicle services contract info, functions, commands and controls to the vehicle services provided by participating providers using VSC contract.
