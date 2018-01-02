@@ -1,7 +1,7 @@
-# OCP-Smart-Contracts
+#OCPSmartContracts
 This repository will hold the commands, descriptions and functions for many of our Smart Contracts that will be publish in the coming months in 2018. Hang tight we will release more info once the KarToken sale is completed.
 
-NOTE: The Smart Contract listed are in description & function form and may seen tobe incomplete, but many functions have been omitted for security reasons. All final coding for the smart contracts will be released once the KarToken sale is completed in March 2018.  
+NOTE: The Smart Contract listed are in description & function form and may seen incomplete, but many commands & functions have been omitted for security reasons. All final coding for the smart contracts will be released once the KarToken sale is completed in March 2018.  
 
 Reward offer:
 
