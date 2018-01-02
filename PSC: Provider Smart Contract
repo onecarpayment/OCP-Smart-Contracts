@@ -1,0 +1,172 @@
+****************************************************************
+*One Car Payment Encyclopedia of Functions and Commands for the*
+*framework in using Smart Contracts within the OCP network and * 
+*command structure in the development of lending and insurance *
+*instruments in the automotive fintech landscape. Enjoy-Rudy :P*
+*							                                                 *
+*		          OneCarPayment Vehicle Services, Inc. 	           *
+*		            PSC: Provider Smart Contract 		               *
+*							                                                 *
+****************************************************************
+
+OneCarPayment Vehicle Services, Inc. 
+PSC: Provider Smart Contract 
+
+This provider smart contract code functions holds the providers vehicle services contract on polling vehicle smart contract info, functions, commands and controls to the information services provided by participating providers using psc contract.
+The contract is in an active state, polling data based on these functions and criteria:
+PSC Services: Info, Contact, Type, Cost, Status, Payments, Transfer, History, Time Date Stamp, Location, Duration, Penalty, Library codes.
+
+NOTE: ****Due to Security issues - select code, functions, commands will not be release to the public****
+NOTE: Karchain™ is OCP proprietary software developed to provide a simple means for consumers to use KarTokens to purchase vehicles or products or services in automotive market place. [Karchain is our version of Blockchain but for autos]
+NOTE: Select data will be masked during all transactions of all forms on the OCP Karchain network in providing true member privacy. Only the member and OCP will know the true owner of the vehicle smart contract.
+NOTE: DMV term- Select states use other or similar named services or meaning like Dept of Transportation or Dept of Public Transportation and the like. To generalize, OCP uses "DMV" as the defacto.
+
+Select code, functions & commands released publicly are subject to change without notice.
+Select list of definitions released publicly are subject to change without notice.
+Select list of functions released publicly are subject to change without notice.
+Select code, functions & commands are Copyright 2018 ® OneCarPayment, Inc.'
+Select code, functions & commands are Trademarked ™ OneCarPayment, Inc.
+Changes made will be release on GitHub at OCP's dpscretion.
+
+****************************************************************
+Time / Date Stamp functions related to the action of the functions, by providing the relationship to command and control.
+
+td.time - records network time from NIST or USNO Master Clock
+td.date - records network date from NIST or USNO Master Clock
+td.history - records a log of access control of network time from NIST or USNO Master Clock
+
+****************************************************************
+Karchain functions related to the OCP network platform. [Karchain is our version of Blockchain but for autos]
+****Due to Security issues - select code & functions will not be release to the public****
+
+kc.info - OCP KC:Karchain matrix [list of definitions & functions]
+kc.ai - OCP AI:artificial intelligence matrix [list of definitions & functions]
+kc.func - list of function definitions
+kc.health - Network status of OCP KC  
+kc.health.ai - Network status of OCP AI on KC
+kc.sec.health - Security status of the OCP KC network both internal and external 
+
+****************************************************************
+Provider Smart Contract
+
+acronym:psc: Provider Smart Contract
+
+info:service providers command & control
+
+psc.info - provider main information [name, address, point of contact, provider store number and policy type]
+psc.ai - OCP AI:artificial intelligence matrix [list of definitions]
+psc.access - provider access to the smart contract [command and control access]
+psc.cdate - creation date of the contract instrument [the day the contract instrument was made and executed]
+psc.ctime - creation time of the contract instrument [the time the contract instrument was made and executed]
+psc.status - status of the contract instrument [open, closed, pending or arbitration]
+psc.vehicle - status of members VSC performed for there vehicle [open, closed, pending or arbitration]
+psc.type - instrument type [list of function definitions]
+psc.matrix - provider's matrix [list of the provider services and function definitions] 
+psc.cost - total cost of contract instrument
+psc.term - provider's contract instrument terms in months based on the psc.term.matrix
+psc.term.matrix - term matrix [list of definitions in months(years): 12(1) / 24(2) / 36(3) / 48(4) / 60(5) / 72(6) / 84(7) / 96(8) / 108(9) / 120(10)]
+psc.balance - provider & members remaining payment balance left on the contract instrument [balance based on the time of request]
+psc.transfer - provider & members payment transfer information from bank to wallet or wallet to wallet
+psc.history - provider & members contract instrument provider history [all payments made to providers since day one of opening account based on the psc.provider.matrix]
+psc.duration - time left on the provider's contract instrument until PIF:paid in full [by numerial months]
+psc.release - when the psc will be released after final payment [expected release date shown]
+psc.destroy - when and how the provider's contract instrument will be cancelled [expected contract instrument end date & cause]
+psc.penalty - what and how the penalty will be imposed to the contract instrument if member fails to make. miss or late payment [expected the penalty cost based on the lsc.penalty.matrix]
+psc.penalty.matrix - penalty matrix [list of definitions]
+psc.dmv - status of the vehicle dmv records and matrix [mechanics liens or liens]
+psc.dmv.matrix - dmv polling and penalty matrix [list of definitions] 
+psc.library - OCP x Providers data codes [backend]
+
+bill:payment:incoming
+
+psc.payment - payment matrix [list of definitions]
+psc.payment.ai - OCP AI:artificial intelligence matrix [list of definitions]
+psc.payment.amount - members monthly payment amount [either in KarTokens or USD and any other currencies]
+psc.payment.type - payment & currency type
+psc.payment.owner - members payment information [wallet or bank name, address, contact, policy number and policy type]
+psc.payment.time - time stamp of the payment made
+psc.payment.date - date stamp of the payment made
+psc.payment.access - list of who has access to payments
+psc.payment.status - the status of payments either accepted, pending or declined states
+psc.payment.vehicle - status of vehicle services performed and completed
+psc.payment.balance - members remaining payment balance [balance based on the time of request]
+psc.payment.transfer - members payment transfer from bank to wallet
+psc.payment.history - members payment history [all payments made since day one of opening account]
+psc.payment.location - where the payment is coming from
+psc.payment.duration - how long the payment is in force
+psc.payment.release - when a payment will be released for payment
+psc.payment.destroy - when and how the payment will be cancelled
+psc.payment.returned - when and how the payment will be returned to the member
+psc.payment.penalty - when a payment will be assessed based on the penalty from dmv records poll
+psc.payment.dmv - status assessed based on the penalty from dmv records poll
+psc.payment.library - OCP x Providers payment data codes
+
+bill:payment:outgoing
+
+psc.payout - bills matrix [list of functions & definitions]
+psc.payout.ai - OCP AI:artificial intelligence matrix [list of definitions]
+psc.payout.amount - provider bill amount [either in KarTokens or USD and any other currencies]
+psc.payout.type - bill type [list of functions & definitions]
+psc.payout.owner - who owns the bill payment [wallet or bank name, address, contact, policy number and policy type]
+psc.payout.time - provider bill time stamp of payment made
+psc.payout.date - provider bill date stamp of payment made
+psc.payout.access - list of who has access and when to payout payments
+psc.payout.status - status of the payout of bill claim [open or closed]
+psc.payout.balance - balance of bill paid made to date
+psc.payout.transfer - status bill payment transfer from bank to wallet or wallet to bank
+psc.payout.history - ocp claim payment history [ocp payments made since day one of member opening account]
+psc.payout.location - where the payment is coming from
+psc.payout.duration - how long the bill claim payment is in force
+psc.payout.release - when a bill payment will be released for payment
+psc.payout.destroy - when and how the bill payment will be cancelled or stopped
+psc.payout.returned - when and how the payment will be returned if the bill has been paid based on the VSC & psc status
+psc.payout.penalty - when a payment will be assessed based on the penalty based on the VSC & PSC status and records poll on psc.penalty
+psc.payout.dmv - status assessed based on the penalty from dmv records poll
+psc.payout.library - OCP x Providers payout data codes
+
+penalty:imposed [for services not rendered or performed by the provider]
+
+psc.penalty - penalty matrix [list of functions & definitions]
+psc.penalty.ai - OCP AI:artificial intelligence matrix [list of definitions]
+psc.penalty.amount - amount of penalty imposed
+psc.penalty.type - type of penalty imposed
+psc.penalty.owner - ocp payment information [wallet or bank name, address, contact, policy number and policy type]
+psc.penalty.pct - percentage of penalty imposed
+psc.penalty.time - penalty time stamp of payment made
+psc.penalty.date - penalty date stamp of payment made
+psc.penalty.access - list of who has access to the penalty
+psc.penalty.status - status of the penalty [open or closed]
+psc.penalty.vehicle - status of vehicle services not performed and completed
+psc.penalty.balance - total balance of the penalty made to date
+psc.penalty.transfer - penalty payment transfer from bank to wallet
+psc.penalty.history - penalty payment history [ocp payments made since day one of member opening account]
+psc.penalty.location - where the penalty payment is coming from
+psc.penalty.duration - how long the penalty is in force
+psc.penalty.release - when a penalty payment will be released for payment
+psc.penalty.destroy - when and how the penalty will be cancelled
+psc.penalty.returned - when and how the payment will be returned to the member
+psc.penalty.dmv - status assessed based on the penalty matrix from dmv records poll
+psc.penalty.library -  OCP x Providers penalty data codes
+
+payback:refunds/ credits/ promotions/ coupons/ rebates [payments for services rendered / non-rendered or products purchased or returned]
+
+psc.payback - payout matrix [list of functions & definitions]
+psc.payback.ai - OCP AI:artificial intelligence matrix [list of definitions]
+psc.payback.amount - ocp payback payment amount [total amount]
+psc.payback.type - payback payments type to be made to member [refunds, credits, promotions, coupons & rebates]
+psc.payback.owner - who gets the payback payment [wallet or bank name, address, contact, policy number and policy type]
+psc.payback.pct - percentage of payback imposed
+psc.payback.time - payback payment time stamp of payment made
+psc.payback.date - payback payment date stamp of payment made
+psc.payback.access - list of who has access to the payback access [who made the payback payment]
+psc.payback.status - status of the payback payment [open or closed]
+psc.payback.vehicle - status of vehicle services performed and completed
+psc.payback.balance - total balance on the payback made to date
+psc.payback.transfer - ocp payback payment transfer from bank to wallet
+psc.payback.history - ocp payback payment history [ocp payments made since day one of member opening account]
+psc.payback.location - where the payback payment is coming from
+psc.payback.duration - how long the payback payment is in force
+psc.payback.release - when a payback payment will be released for payment
+psc.payback.destroy - when and how the payback payment will be cancelled
+psc.payback.returned - when and how the payback payment will be returned to the insurance smart contract
+psc.payback.library - OCP x Providers payback data codes
