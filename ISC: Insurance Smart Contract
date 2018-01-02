@@ -1,0 +1,165 @@
+****************************************************************
+*One Car Payment Encyclopedia of Functions and Commands for the*
+*framework in using Smart Contracts within the OCP network and * 
+*command structure in the development of lending and insurance *
+*instruments in the automotive fintech landscape. Enjoy-Rudy :P*
+*							                                                 *
+*		        OCP Financial Indemnity Insurance, Inc.            *
+*		            ISC: Insurance Smart Contract 		             *
+*							                                                 *
+****************************************************************
+
+OCP Financial Indemnity Insurance, Inc. 
+ISC: Insurance Smart Contract 
+
+This insurance smart contract holds the members policy info, functions, commands and controls to the insurance policy contract.
+The contract is in an active state, polling data based on these functions and criteria:
+ISC Policy Info, Policy Type, Coverage, Cost, Amount, Payment, Payout, Balance, Status, Transfer, History, Time Date Stamp, Location, Duration, Release, Destroy, Penalty, DMV Records check.
+
+NOTE: ****Due to Security issues - select code, functions, commands will not be release to the public****
+NOTE: Karchain™ is OCP proprietary software developed to provide a simple means for consumers to use KarTokens to purchase vehicles or products or services in automotive market place. [Karchain is our version of Blockchain but for autos]
+NOTE: Select data will be masked during all transactions of all forms on the OCP Karchain network in providing true member privacy. Only the member and OCP will know the true owner of the vehicle smart contract.
+NOTE: DMV term- Select states use other or similar named services or meaning like Dept of Transportation or Dept of Public Transportation and the like. To generalize, OCP uses "DMV" as the defacto.
+
+Select code, functions & commands released publicly are subject to change without notice.
+Select list of definitions released publicly are subject to change without notice.
+Select list of functions released publicly are subject to change without notice.
+Select code, functions & commands are Copyright 2018 ® OneCarPayment, Inc.
+Select code, functions & commands are Trademarked ™ OneCarPayment, Inc.
+Changes made will be release on github at OCP's discretion.
+
+****************************************************************
+Time / Date Stamp functions related to the action of the functions, by providing the relationship to command and control.
+
+td.time - records network time from NIST or USNO Master Clock
+td.date - records network date from NIST or USNO Master Clock
+td.history - records a log of access control of network time from NIST or USNO Master Clock
+
+****************************************************************
+Karchain functions related to the OCP network platform. [Karchain is our version of Blockchain but for autos]
+****Due to Security issues - select code & functions will not be release to the public****
+
+kc.info - OCP KC:Karchain matrix [list of definitions & functions]
+kc.ai - OCP AI:artificial intelligence matrix [list of definitions & functions]
+kc.func - list of function definitions
+kc.health - Network status of OCP KC  
+kc.health.ai - Network status of OCP AI on KC
+kc.sec.health - Security status of the OCP KC network both internal and external 
+
+****************************************************************
+Insurance Smart Contract code related to the OCP Karchain network platform.
+
+acronym:isc: Insurance Smart Contract
+
+info:isc command and control
+
+isc.info - isc matrix [list of definitions]
+isc.ai - OCP AI:artificial intelligence matrix [list of definitions]
+isc.owner - members policy information [name, address, contact, policy number and policy type]
+isc.policy - type of policy
+isc.cdate - creation date of the policy [the day the policy was made and executed]
+isc.ctime - creation time of the policy [the time the policy was made and executed]
+isc.cost - cost of policy ownership [total cost of the policy to the member and OCP]
+isc.access - who access to the insurance smart contract [command and control access]
+isc.status - status of the policy [open or closed]
+isc.balance - members remaining policy balance [balance based on the time of request]
+isc.transfer - members transfer from bank to wallet
+isc.history - members insurance smart contract history [all payments made since day one of opening account]
+isc.location - where the insurance policy is located and based [state, city or region based using USPS FIPS & ZipCode+4] 
+isc.duration - how long the insurance policy is in force [by numerial months]
+isc.release - when a payment will be released for payment [expected release date shown]
+isc.destroy - when and how the policy will be cancelled [expected policy end date & cause]
+isc.penalty - what and how the penalty will be imposed to the policy holder [expected the penalty cost and amount returned to member]
+isc.dmv - status of the policy holders dmv records and matrix [open or closed] 
+isc.library - OCP isc data code library
+
+payment:incoming
+
+isc.payment - payment matrix [list of definitions]
+isc.payment.ai - OCP AI:artificial intelligence matrix [list of definitions]
+isc.payment.amount - members monthly payment amount [either in KarTokens or USD and any other currencies]
+isc.payment.type - payment & currency type
+isc.payment.owner - members payment information [wallet or bank name, address, contact, policy number and policy type]
+isc.payment.time - time stamp of the payment made
+isc.payment.date - date stamp of the payment made
+isc.payment.access - list of who has access to payments
+isc.payment.status - the status of payments either accepted, pending or declined states
+isc.payment.balance - members remaining payment balance [balance based on the time of request]
+isc.payment.transfer - members payment transfer from bank to wallet
+isc.payment.history - members payment history [all payments made since day one of opening account]
+isc.payment.location - where the payment is coming from
+isc.payment.duration - how long the payment is in force
+isc.payment.release - when a payment will be released for payment
+isc.payment.destroy - when and how the payment will be cancelled
+isc.payment.returned - when and how the payment will be returned to the member
+isc.payment.penalty - when a payment will be assessed based on the penalty from dmv records poll
+isc.payment.dmv - status assessed based on the penalty from dmv records poll
+isc.payment.library - OCP isc payment data code library
+
+claims:payments outgoing
+
+isc.payout - claims matrix [list of definitions]
+isc.payout.ai - OCP AI:artificial intelligence matrix [list of definitions]
+isc.payout.amount - ocp claim amount [either in KarTokens or USD and any other currencies]
+isc.payout.type - payments made to settle claims
+isc.payout.owner - who gets ocp payout payment [wallet or bank name, address, contact, policy number and policy type]
+isc.payout.time - ocp claim time stamp of payment made
+isc.payout.date - ocp claim date stamp of payment made
+isc.payout.access - list of who has access to payout payments
+isc.payout.status - status of the payout claim [open or closed]
+isc.payout.balance - total claim payouts made to date
+isc.payout.transfer - ocp claim payment transfer from bank to wallet
+isc.payout.history - ocp claim payment history [ocp payments made since day one of member opening account]
+isc.payout.location - where the claim payment is coming from
+isc.payout.duration - how long the claim payment is in force
+isc.payout.release - when a claim payment will be released for payment
+isc.payout.destroy - when and how the claim payment will be cancelled
+isc.payout.returned - when and how the payout will be returned to the insurance smart contract
+isc.payout.penalty - when a payment will be assessed based on the penalty from dmv records poll
+isc.payout.dmv - status assessed based on the penalty from dmv records poll
+isc.payout.library - OCP isc payout data code library
+
+penalty:imposed
+
+isc.penalty - penalty matrix [list of definitions]
+isc.penalty.ai - OCP AI:artificial intelligence matrix [list of definitions]
+isc.penalty.amount - amount of penalty imposed
+isc.penalty.type - type of penalty imposed
+isc.penalty.owner - ocp payment information [wallet or bank name, address, contact, policy number and policy type]
+isc.penalty.pct - percentage of penalty imposed
+isc.penalty.time - penalty time stamp of payment made
+isc.penalty.date - penalty date stamp of payment made
+isc.penalty.access - list of who has access to the penalty
+isc.penalty.status - status of the penalty [open or closed]
+isc.penalty.balance - total balance of the penalty made to date
+isc.penalty.transfer - penalty payment transfer from bank to wallet
+isc.penalty.history - penalty payment history [ocp payments made since day one of member opening account]
+isc.penalty.location - where the penalty payment is coming from
+isc.penalty.duration - how long the penalty is in force
+isc.penalty.release - when a penalty payment will be released for payment
+isc.penalty.destroy - when and how the penalty will be cancelled
+isc.penalty.returned - when and how the payment will be returned to the member
+isc.penalty.dmv - status assessed based on the penalty matrix from dmv records poll
+isc.penalty.library - OCP isc penalty data code library
+
+payback:policy cancellation or account closure/refunds
+
+isc.payback - payout matrix [list of definitions]
+isc.payback.ai - OCP AI:artificial intelligence matrix [list of definitions]
+isc.payback.amount - ocp payback payment amount [total amount]
+isc.payback.type - payback payments type to be made to member
+isc.payback.owner - who gets the payback payment [wallet or bank name, address, contact, policy number and policy type]
+isc.payback.pct - percentage of payback imposed
+isc.payback.time - ocp payback payment time stamp of payment made
+isc.payback.date - ocp payback payment date stamp of payment made
+isc.payback.access - list of who has access to the payback access [who made the payback payment]
+isc.payback.status - status of the payback payment [open or closed]
+isc.payback.balance - total balance on the payback made to date
+isc.payback.transfer - ocp payback payment transfer from bank to wallet
+isc.payback.history - ocp payback payment history [ocp payments made since day one of member opening account]
+isc.payback.location - where the payback payment is coming from
+isc.payback.duration - how long the payback payment is in force
+isc.payback.release - when a payback payment will be released for payment
+isc.payback.destroy - when and how the payback payment will be cancelled
+isc.payback.returned - when and how the payback payment will be returned to the insurance smart contract
+isc.payback.library - OCP isc payback data code library
