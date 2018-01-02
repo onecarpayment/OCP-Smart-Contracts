@@ -1,27 +1,33 @@
 ****************************************************************
 *One Car Payment Encyclopedia of Functions and Commands for the*
-*framework in using Smart Contracts within the OCP network and * 
-*command structure in the development of lending and insurance *
-*instruments in the automotive fintech landscape. Enjoy-Rudy :P*
+*framework in using Smart Contracts within the OCP Karchain    *
+*network and the command structure in the development of       *
+*lending and insurance instruments in the automotive fintech   *
+*landscape. Enjoy-Rudy :P				       *
 *							       *
-*	   OneCarPayment Vehicle Services, Inc.       	       *
-*	      VSC: Vehicle Smart Contract 	               *
-*						               *
+*		OneCarPayment Vehicle Services, Inc. 	       *
+*		VSC: Vehicle Smart Contract 		       *
+*							       *
 ****************************************************************
 
-This smart contract holds the members vehicle services contract info, functions, commands and controls to the vehicle services provided by participating providers using VSC contract.
+OneCarPayment Vehicle Services, Inc. 
+VSC: Vehicle Smart Contract
+
+This smart contract code holds the members vehicle services contract info, functions, commands and controls to the vehicle services provided by participating providers using VSC contract.
 The contract is in an active state, polling data based on these functions and criteria:
 VSC Info, Services, Level, Type, Cost, Amount, Payment, Payout, Balance, Status, Transfer, History, Time Date Stamp, Location, Duration, Release, Destroy, Penalty, DMV Records check.
 
 NOTE: ****Due to Security issues - select code, functions, commands will not be release to the public****
+NOTE: Karchain™ is OCP proprietary software developed to provide a simple means for consumers to use KarTokens to purchase vehicles or products or services in automotive market place. [Karchain is our version of Blockchain but for autos]
+NOTE: Select data will be masked during all transactions of all forms on the OCP Karchain network in providing true member privacy. Only the member and OCP will know the true owner of the vehicle smart contract.
+NOTE: DMV term- Select states use other or similar named services or meaning like Dept of Transportation or Dept of Public Transportation and the like. To generalize, OCP uses "DMV" as the defacto.
 
 Select code, functions & commands released publicly are subject to change without notice.
 Select list of definitions released publicly are subject to change without notice.
 Select list of functions released publicly are subject to change without notice.
-Select code, functions & commands are Copyright 2017 - 2018 ® OneCarPayment, Inc.
+Select code, functions & commands are Copyright 2018 ® OneCarPayment, Inc.
 Select code, functions & commands are Trademarked ™ OneCarPayment, Inc.
-Changes made will be release on github at OCP's discretion.
-
+Changes made will be release on GitHub at OCP's discretion.
 
 ****************************************************************
 Time / Date Stamp functions related to the action of the functions, by providing the relationship to command and control.
@@ -31,58 +37,24 @@ td.date - records network date from NIST or USNO Master Clock
 td.history - records a log of access control of network time from NIST or USNO Master Clock
 
 ****************************************************************
-Access functions related to "who has access and how the acccess is controlled" the action and relatonship to the command and control of the user account, functions, records.
-****Due to Security issues - select access code, functions, commands will not be release to the public****
-
-acc.owner.info - [list of definitions of who has control to the account functions, commands and controls]
-acc.owner.func - [list of function definitions of owner functions, commands and controls]
-acc.owner.1 - owner has no control of the account functions, commands and controls.
-	[i.e.: acc.owner.1.time.date.functions=view only] 
-acc.owner.2 - owner has limited control of the account of the user, functions, commands and controls either timed or by date. 
-	[i.e.: acc.owner.2.time=16:00=19:00_not=19:01-15:59 or acc.owner.2.date=02/09/2018=03/21/2018_not=01/01/2018-02/08/2018 inc.after.date]
-acc.owner.3 - owner has partial control of the account of the user, functions, commands and controls either timed, by date, or limited access to commands and functions.
-	[i.e.: acc.owner.3.limit.functions=[list functions here]] 
-acc.owner.4 - [****select code, functions and commands will not be release to the public****]
-acc.owner.5 - [****select code, functions and commands will not be release to the public****]
-acc.owner.6 - [****select code, functions and commands will not be release to the public****]
-acc.owner.7 - [****select code, functions and commands will not be release to the public****]
-
-****************************************************************
-Security functions related to the securitization of the OCP network.
-****Due to Security issues - select security code, functions, commands will not be release to the public****
-
-sec.owner.info - [list of definitions as to control of the account functions, commands and controls]
-sec.owner.func - [list of function definitions of owner functions, commands and controls] 
-sec.owner.1 - owner has limited control over the network functions, commands and controls.
-	[i.e.: sec.owner.1.time.date.functions=[add functions here]]
-sec.owner.2 - owner has limited control of the network functions either timed or by date.
-	[i.e.: sec.owner.2.time=16:00=19:00_not=19:01-15:59 or sec.owner.2.date=02/09/2018=03/21/2018_not=01/01/2018-02/08/2018 inc.after.date]
-sec.owner.3 - owner has partial control of the network functions either timed, by date, or limited access to commands and functions.
-	[i.e.: sec.owner.3.limit.functions=[list functions here]]
-sec.owner.4x - [****select code, functions and commands will not be release to the public****]
-sec.owner.5x - [****select code, functions and commands will not be release to the public****]
-sec.owner.6x - [****select code, functions and commands will not be release to the public****]
-sec.owner.7x - [****select code, functions and commands will not be release to the public****]
-
-****************************************************************
-Karchain functions related to the OCP network platform.
+Karchain functions related to the OCP network platform. [Karchain is our version of Blockchain but for autos]
 ****Due to Security issues - select code & functions will not be release to the public****
 
-bc.info - OCP BC:karchain matrix [list of definitions & functions]
-bc.ai - OCP AI:artificial intelligence matrix [list of definitions & functions]
-bc.func - list of function definitions
-bc.health - Network status of OCP BC  
-bc.health.ai - Network status of OCP AI on BC
-bc.sec.health - Security status of the OCP BC network both internal and external 
+kc.info - OCP kc:karchain matrix [list of definitions & functions]
+kc.ai - OCP AI:artificial intelligence matrix [list of definitions & functions]
+kc.func - list of function definitions
+kc.health - Network status of OCP kc  
+kc.health.ai - Network status of OCP AI on kc
+kc.sec.health - Security status of the OCP kc network both internal and external 
 
 ****************************************************************
-VSC: Vehicle Smart Contract 
+Vehicle Smart Contract functions related to the OCP network platform.
 
 acronym:vsc: Vehicle Smart Contract
 
-info:smart contract command & control
+info:vehicle smart contract command & control
 
-vsc.info - vsc matrix [list of function definitions]
+vsc.info - vsc matrix [list of functions & definitions]
 vsc.ai - OCP AI:artificial intelligence matrix [list of definitions]
 vsc.access - who can and has access to the smart contract [command and control access]
 vsc.owner - vehicle owner / member information [name, address, contact, vehicle services contract number and contract level and type]
@@ -93,10 +65,11 @@ vsc.dmv - dmv data records, matrix & information [list of function definitions]
 vsc.cdate - creation date of the contract instrument [the day the contract instrument was made and executed]
 vsc.ctime - creation time of the contract instrument [the time the contract instrument was made and executed]
 vsc.status - status of the contract instrument [open, closed, pending or arbitration]
-vsc.type - instrument type [list of function definitions]
+vsc.type - instrument type [list of functions & definitions]
+Vsc.level - smart contract level type [list of functions & definitions] 
 vsc.cost - total cost of contract instrument
 vsc.term - contract instrument terms in months based on the vsc.term.matrix
-vsc.term.matrix - term matrix [list of definitions in months(years): 12(1) / 24(2) / 36(3) / 48(4) / 60(5) / 72(6) / 84(7) / 96(8) / 108(9) / 120(10)]
+vsc.term.matrix - term matrix [list of functions & definitions/ example: in months(years): 12(1) / 24(2) / 36(3) / 48(4) / 60(5) / 72(6) / 84(7) / 96(8) / 108(9) / 120(10)]
 vsc.balance - members remaining payment balance left on the contract instrument [balance based on the time of request]
 vsc.transfer - members payment transfer information from bank to wallet or wallet to wallet
 vsc.history - members contract instrument history [all payments made since day one of opening account]
@@ -106,7 +79,7 @@ vsc.duration - time left on the contract instrument until PIF:paid in full [by n
 vsc.release - when the vehicle title will be released after final payment [expected release date shown]
 vsc.destroy - when and how the contract instrument will be cancelled [expected contract instrument end date & cause]
 vsc.penalty - what and how the penalty will be imposed to the contract instrument if member fails to make, miss or late payment [expected the penalty cost based on the lsc.penalty.matrix]
-vsc.penalty.matrix - penalty matrix [list of definitions]
+vsc.penalty.matrix - penalty matrix [list of functions & definitions]
 
 vehicle:info
 
@@ -116,44 +89,48 @@ vsc.vehicle.ai - OCP AI:artificial intelligence matrix [list of definitions]
 vsc.vehicle.access - who has access to vehicle data [command and control access]
 vsc.vehicle.owner - present vehicle owner [name, address, contact, vehicle services contract number and contract level and type]
 vsc.vehicle.transfer - past vehicle owner -if any [name, address, contact info]
+vsc.vehicle.cost - total purchase price of the vehicle at final sale
 vsc.vehicle.cdate - creation date of the contract instrument [the day the contract instrument was made and executed]
 vsc.vehicle.ctime - creation time of the contract instrument [the time the contract instrument was made and executed]
-vsc.vehicle.condition - new, used, salvage or repairable vehicle
-vsc.vehicle.year - year vehicle manufactured
-vsc.vehicle.make - vehicle manufacturer
-vsc.vehicle.model - vehicle model
-vsc.vehicle.trim - vehicle sub-model or trim model
-vsc.vehicle.type - sedan, coupe, wagon, crossover, diesel, hatchback, hybrid, electric, luxury, exotic, minivan, suv, truck
+vsc.vehicle.condition - status: new, used, salvage or repairable vehicle
+vsc.vehicle.year - year vehicle manufactured - as designated by the manufacture
+vsc.vehicle.make - vehicle manufacturer - as designated by the manufacture
+vsc.vehicle.model - vehicle model - as designated by the manufacture
+vsc.vehicle.smodel - vehicle sub-model - as designated by the manufacture
+vsc.vehicle.trim - vehicle trim model - as designated by the manufacture
+vsc.vehicle.type - platform type: sedan, coupe, wagon, crossover, diesel, hatchback, hybrid, electric, luxury, exotic, minivan, suv, truck [motorcycle & RV in 2019]
+vsc.vehicle.stype - service type: private, public [gov't] or commerical
 vsc.vehicle.vin - vehicle identification number as designated by the manufacture
 vsc.vehicle.color - vehicle color as designated by manufacture on the vin code
 vsc.vehicle.mileage - vehicle actual mileage as designated on the vehicle dashboard
-vsc.vehicle.status - status of the vehicle condition as designated by the engine ecm and bcm [check engine code/ obd2 codes]
-vsc.vehicle.cost - total purchase price of the vehicle at final sale
-vsc.vehicle.location - where the vehicle is located and stationed [state, city or region based using GPS] 
+vsc.vehicle.status - status of the vehicle condition as designated by the engine ecm and kcm [obd2 codes]
+vsc.vehicle.beacon - OCP Beacon / OBD2 scanner supplied to the vehicle owner
+vsc.vehicle.location - where the vehicle is located and stationed [state, city or region based using OCP Beacon GPS] 
+vsc.vehicle.library - OCP vehicle code library
 
 vehicle:services
 
-vsc.vservices - vehicle service data & information [list of function definitions]
-vsc.vservices.info - vehicle services matrix [list of function definitions]
+vsc.vservices - vehicle service data & information [list of functions & definitions]
+vsc.vservices.info - vehicle services matrix [list of functions & definitions]
 vsc.vservices.ai - OCP AI:artificial intelligence matrix [list of definitions]
 vsc.vservices.access - who has access to vehicle data [command and control access]
 vsc.vservices.schedule - vehicle manufacturers recommended maintenance schedule
 vsc.vservices.notices - vehicle manufacturers recalls and technical service bulletins
 vsc.vservices.history - complete vehicle service and maintenance records since day one of account creation
-vsc.vservices.status - complete history of the vehicle condition as designated by the engine ecm and bcm [check code/ obd2 codes]
+vsc.vservices.status - complete history of the vehicle condition as designated by the engine ecm and kcm [check code/ obd2 codes sent via OCP OBD2 Beacon]
 vsc.vservices.library - vehicle manufactures, fed-dot and state-dot data codes
 
-service:providers
+vehicle service:providers
 
-vsc.providers - providers data & information [list of function definitions]
+vsc.providers - providers data & information [list of functions & definitions]
 vsc.providers.info - provider main information [name, address, point of contact, provider store number and policy type]
-vsc.providers.ai - OCP AI:artificial intelligence matrix [list of definitions]
+vsc.providers.ai - OCP AI:artificial intelligence matrix [list of functions & definitions]
 vsc.providers.access - provider access to the smart contract [command and control access]
 vsc.providers.cdate - creation date of the contract instrument [the day the contract instrument was made and executed]
 vsc.providers.ctime - creation time of the contract instrument [the time the contract instrument was made and executed]
 vsc.providers.status - status of the contract instrument [open, closed, pending or arbitration]
-vsc.providers.type - instrument type [list of function definitions]
-vsc.providers.matrix - provider matrix [list of the provider services and function definitions] 
+vsc.providers.type - instrument type [list of functions & definitions]
+vsc.providers.matrix - provider matrix [list of the provider services, functions & definitions] 
 vsc.providers.cost - total cost of contract instrument
 vsc.providers.term - contract instrument terms in months based on the vsc.term.matrix
 vsc.providers.term.matrix - term matrix [list of definitions in months(years): 12(1) / 24(2) / 36(3) / 48(4) / 60(5) / 72(6) / 84(7) / 96(8) / 108(9) / 120(10)]
@@ -167,27 +144,5 @@ vsc.providers.destroy - when and how the contract instrument will be cancelled [
 vsc.providers.penalty - what and how the penalty will be imposed to the contract instrument if member fails to make. miss or late payment [expected the penalty cost based on the lsc.penalty.matrix]
 vsc.providers.penalty.matrix - penalty matrix [list of definitions]
 vsc.providers.dmv - status of the vehicle dmv records and matrix [mechanics liens or liens]
-vsc.providers.dmv.matrix - dmv polling and penalty matrix [list of definitions] 
+vsc.providers.dmv.matrix - dmv polling and penalty matrix [list of functions & definitions] 
 vsc.providers.library - providers data codes
-
-service:dmv
-
-vsc.dmv - dmv data records, matrix & information [list of function & definitions]
-vsc.dmv.matrix - dmv polling and penalty matrix [list of definitions]
-vsc.dmv.info - dmv provider main information [name, address, point of contact and policy type]
-vsc.dmv.ai - OCP AI:artificial intelligence matrix [list of definitions]
-vsc.dmv.access - dmv access to the smart contract [command and control access]
-vsc.dmv.cdate - creation date of the contract instrument [the day the contract instrument was made and executed]
-vsc.dmv.ctime - creation time of the contract instrument [the time the contract instrument was made and executed]
-vsc.dmv.status - status of the dmv access to records and matrix [open, closed, pending or arbitration] 
-vsc.dmv.type - state or public data access type [list of function definitions]
-vsc.dmv.cost - total cost to access dmv data & information
-vsc.dmv.term - contract terms to access dmv records and data in months 
-vsc.dmv.term.matrix - term matrix [list of definitions in months(years): 12(1) / 24(2) / 36(3) / 48(4) / 60(5) / 72(6) / 84(7) / 96(8) / 108(9) / 120(10)]
-vsc.dmv.balance - remaining payment balance left on the dmv contract instrument [balance based on the time of request]
-vsc.dmv.transfer - dmv payment transfer for data information from bank to wallet or wallet to wallet
-vsc.dmv.history - complete vehicle history report received from dmv [all dmv services performed on the vehicle data since day one of opening account]
-vsc.dmv.duration - time left on the dmv data contract instrument [by numerial months]
-vsc.dmv.release - when the vehicle title is expected to be released after final payment is made [expected release date shown]
-vsc.dmv.penalty - records list of mechanics liens or liens]liens on vehicles, or outstanding fines
-vsc.dmv.library - dmv, dot or public services [dmv] data codes
