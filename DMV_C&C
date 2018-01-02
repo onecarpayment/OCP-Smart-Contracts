@@ -1,0 +1,104 @@
+****************************************************************
+*One Car Payment Encyclopedia of Functions and Commands for the*
+*framework in using Smart Contracts within the OCP network and * 
+*command structure in the development of lending and insurance *
+*instruments in the automotive fintech landscape. Enjoy-Rudy :P*
+*							                                                 *
+*		           OneCarPayment Vehicle Services, Inc. 	         *
+*		              VSC: Vehicle Smart Contract 		             *
+*		              DMV: Dept of Motor Vehicles		               *
+*							                                                 *
+****************************************************************
+
+OneCarPayment Vehicle Services, Inc. 
+DMV: Department of Motor Vehicles using VSC: Vehicle Smart Contract for data polling.
+
+This vehicle smart contract code holds the members vehicle services contract on polling dmv drivers license info, functions, commands and controls to the drivers information services provided by participating providers using VSC contract.
+The contract is in an active state, polling data based on these functions and criteria:
+Drivers License Info: DL Records, DL Penalty, DL DUI
+DMV Services: Info, Type, Cost, Status, Transfer, History, Time Date Stamp, Location, Duration, Penalty, Library codes.
+
+NOTE: ****Due to Security issues - select code, functions, commands will not be release to the public****
+NOTE: Karchain™ is OCP proprietary software developed to provide a simple means for consumers to use KarTokens to purchase vehicles or products or services in automotive market place. [Karchain is our version of Blockchain but for autos]
+NOTE: Select data will be masked during all transactions of all forms on the OCP Karchain network in providing true member privacy. Only the member and OCP will know the true owner of the vehicle smart contract.
+NOTE: DMV term- Select states use other or similar named services or meaning like Dept of Transportation or Dept of Public Transportation and the like. To generalize, OCP uses "DMV" as the defacto.
+
+Select code, functions & commands released publicly are subject to change without notice.
+Select list of definitions released publicly are subject to change without notice.
+Select list of functions released publicly are subject to change without notice.
+Select code, functions & commands are Copyright 2018 ® OneCarPayment, Inc.'
+Select code, functions & commands are Trademarked ™ OneCarPayment, Inc.
+Changes made will be release on github at OCP's discretion.
+
+****************************************************************
+Time / Date Stamp functions related to the action of the functions, by providing the relationship to command and control.
+
+td.time - records network time from NIST or USNO Master Clock
+td.date - records network date from NIST or USNO Master Clock
+td.history - records a log of access control of network time from NIST or USNO Master Clock
+
+****************************************************************
+Karchain functions related to the OCP network platform. [Karchain is our version of Blockchain but for autos]
+****Due to Security issues - select code & functions will not be release to the public****
+
+kc.info - OCP KC:Karchain matrix [list of definitions & functions]
+kc.ai - OCP AI:artificial intelligence matrix [list of definitions & functions]
+kc.func - list of function definitions
+kc.health - Network status of OCP KC  
+kc.health.ai - Network status of OCP AI on KC
+kc.sec.health - Security status of the OCP KC network both internal and external 
+
+****************************************************************
+DMV Smart Contract codes related to the OCP Karchain network platform.
+
+acronym:dmv Department of Motor Vehicles 
+
+info:dmv command & comtrol
+
+vsc.dmv - dmv data records, matrix & information [list of function definitions]
+vsc.dmv.matrix - dmv polling and penalty matrix [list of definitions]
+vsc.dmv.info - dmv provider main information [dmv name, address, point of contact and policy type]
+vsc.dmv.ai - OCP AI:artificial intelligence matrix [list of definitions]
+vsc.dmv.access - dmv access to the smart contract [command and control access]
+vsc.dmv.cdate - creation date of the contract instrument [the day the contract instrument was made and executed]
+vsc.dmv.ctime - creation time of the contract instrument [the time the contract instrument was made and executed]
+vsc.dmv.status - status of the dmv access to records and matrix [open, closed, pending or arbitration] 
+vsc.dmv.type - state or public data access type [list of function definitions]
+vsc.dmv.cost - total cost to access dmv data & information
+vsc.dmv.term - contract terms to access dmv records and data in months 
+vsc.dmv.term.matrix - term matrix [list of definitions in months(years): 12(1) / 24(2) / 36(3) / 48(4) / 60(5) / 72(6) / 84(7) / 96(8) / 108(9) / 120(10)]
+vsc.dmv.balance - remaining payment balance left on the dmv contract instrument [balance based on the time of request]
+vsc.dmv.transfer - dmv payment transfer for data information from bank to wallet or wallet to wallet
+vsc.dmv.history - complete vehicle history report received from dmv [all dmv services performed on the vehicle data since day one of opening account]
+vsc.dmv.duration - time left on the dmv data contract instrument [by numerial months]
+vsc.dmv.release - when the vehicle title is expected to be released/shipped after final payment is made [expected release date shown]
+vsc.dmv.penalty - records list of mechanics liens or liens on vehicles, past/ present or outstanding fines
+vsc.dmv.library - dmv, dot or public services [dmv] data codes
+
+dmv:dfetch [drivers license fetch]
+
+vsc.dmv.dfetch - - dmv drivers license records, matrix & information [list of function definitions]
+vsc.dmv.dfetch.matrix - dfetch polling and penalty matrix [list of definitions]
+vsc.dmv.dfetch.info - dmv provider main information polling type
+vsc.dmv.dfetch.ai - OCP AI:artificial intelligence matrix [list of definitions]
+vsc.dmv.dfetch.access - control access to the fetch protocol [command and control access]
+vsc.dmv.dfetch.cdate - creation date of the fetch poll [the day the fetch order was made and executed]
+vsc.dmv.dfetch.ctime - creation time of the fetch poll [the time the fetch order was made and executed]
+vsc.dmv.dfetch.dstatus - status of the dmv fetch poll access to records and matrix [open, closed, pending or arbitration] 
+vsc.dmv.dfetch.dtype - dmv data fetch access type [list of function definitions]
+vsc.dmv.dfetch.dhistory - complete dmv data fetch history report received from dmv [all dmv fetch services performed on the driver's data since day one of opening account]
+vsc.dmv.dfetch.didnum - fetch drivers state identifcation number
+vsc.dmv.dfetch.dissue - fetch drivers state license issue date
+vsc.dmv.dfetch.dexpire - fethc drivers state license expiration date
+vsc.dmv.dfetch.ddob - fetch drivers date of birth
+vsc.dmv.dfetch.dname - fetch drivers full name [first, middle, last, pre/suffix]
+vsc.dmv.dfetch.daddress - fetch drivers full mailing address [address 1, address 2, city, state, zip code/+4]
+vsc.dmv.dfetch.dclass - fetch drivers classifcation state code
+vsc.dmv.dfetch.dendorse - fetch drivers state endorsements
+vsc.dmv.dfetch.drestric - fetch drivers state restrictions
+vsc.dmv.dfetch.dmed - fetch drivers state medical restrictions or endorsements
+vsc.dmv.dfetch.dpic - fetch drivers license picture
+vsc.dmv.dfetch.dhistory - fetch drivers license full history
+vsc.dmv.dfetch.dpenalty - fetch drivers full records list of past/present/pending: penalties, violations or outstanding fines
+vsc.dmv.dfetch.dpenalty.dui - fetch drivers full records list of past/present/pending: dui/dwi penalties, violations or outstanding fines
+vsc.dmv.dfetch.dlibrary - OCP DL fetch data codes
