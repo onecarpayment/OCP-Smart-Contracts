@@ -9,7 +9,7 @@ The public is open to use the definitions and functions as presented, if your up
 All code submitted will be reviewed by us and voted by the general public for final approval. 
 Any code developed by you and submitted for the reward, will become the sole property owner of OneCarPayment, Inc. and any rights to the code you have developed will be transfered to OneCarPayment, Inc.  
 
-If your code is that good, heck we'll even hire you - we have the best benefits barnone - even better than top F100 company combined just ask us and we'll give it to you. 
+If your code is that good, heck we'll even hire you - we have the best benefits barnone - even better than top F100 companies combined if don't have it, just ask us and we'll give it to you. 
 Send your resume here >> resume@onecarpayment.com
 
 And for the love of building beautiful code, please don't plagiarize anyones hard work. Your mind is beautiful in many ways, so be smart in developing your code.   Clean code is smart code.
