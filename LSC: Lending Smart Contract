@@ -1,0 +1,153 @@
+****************************************************************
+*One Car Payment Encyclopedia of Functions and Commands for the*
+*framework in using Smart Contracts within the OCP network and * 
+*command structure in the development of lending and insurance *
+*instruments in the automotive fintech landscape. Enjoy-Rudy :P*
+*                                         							       *
+*		                OneCarPayment Bank, Inc. 	         	       *
+*		              LSC: Lending Smart Contract                  *
+*	                                          						       *
+****************************************************************
+
+OneCarPayment Bank, Inc. 
+LSC: Lending Smart Contract 
+
+This lending smart contract code functions holds the borrowers lending smart contract info, functions, commands and controls to the information & services provided by participating lenders using lsc contract.
+The contract is in an active state, polling data based on these functions and criteria:
+LSC Services: Info, Contact, Type, Cost, Status, Payments, Transfer, History, Time Date Stamp, Location, Duration, Penalty, Vehicle & Library codes.
+
+NOTE: ****Due to Security issues - select code, functions, commands will not be release to the public****
+NOTE: Karchain™ is OCP proprietary software developed to provide a simple means for consumers to use KarTokens to purchase vehicles or products or services in automotive market place. [Karchain is our version of Blockchain but for autos]
+NOTE: Select data will be masked during all transactions of all forms on the OCP Karchain network in providing true member privacy. Only the member and OCP will know the true owner of the vehicle smart contract.
+NOTE: DMV term- Select states use other or similar named services or meaning like Dept of Transportation or Dept of Public Transportation and the like. To generalize, OCP uses "DMV" as the defacto.
+
+Select code, functions & commands released publicly are subject to change without notice.
+Select list of definitions released publicly are subject to change without notice.
+Select list of functions released publicly are subject to change without notice.
+Select code, functions & commands are Copyright 2018 ® OneCarPayment, Inc.
+Select code, functions & commands are Trademarked ™ OneCarPayment, Inc.
+Changes made will be release on github at OCP's dlscretion.
+
+****************************************************************
+Time / Date Stamp functions related to the action of the functions, by providing the relationship to command and control.
+
+td.time - records network time from NIST or USNO Master Clock
+td.date - records network date from NIST or USNO Master Clock
+td.history - records a log of access control of network time from NIST or USNO Master Clock
+
+****************************************************************
+Karchain functions related to the OCP network platform. [Karchain is our version of Blockchain but for autos]
+****Due to Security issues - select code & functions will not be release to the public****
+
+kc.info - OCP KC:Karchain matrix [list of definitions & functions]
+kc.ai - OCP AI:artificial intelligence matrix [list of definitions & functions]
+kc.func - list of function definitions
+kc.health - Network status of OCP KC  
+kc.health.ai - Network status of OCP AI on KC
+kc.sec.health - Security status of the OCP KC network both internal and external 
+
+****************************************************************
+Lending Smart Contract
+
+acronym:lsc: lending Smart Contract
+
+info:lending command & control
+
+lsc.info - borrowers main information [name, address, point of contact, borrowers contract number and type]
+lsc.ai - OCP AI:artificial intelligence matrix [list of definitions]
+lsc.access - lenders & borrowers access to the smart contract [command and control access]
+lsc.cdate - creation date of the contract instrument [the day the contract instrument was made and executed]
+lsc.ctime - creation time of the contract instrument [the time the contract instrument was made and executed]
+lsc.status - status of the contract instrument [open, closed, pending or arbitration]
+lsc.matrix - borrowers matrix [list of the lending services and function definitions] 
+lsc.credit - borrowers credit matrix based on lsc.ai matrix
+lsc.loantype - lending instrument type [fixed or reversed balloon]
+lsc.loanamt - total loan amount of the lending instrument [list of definitions/example: Min $1,000.00 or 10.00 KarTokens to Max $10,000,000.00 or 100,000.00 KarTokens]
+lsc.apr - annual percentage rate cost of the lending instrument based on the lsc.apr.matrix
+lsc.apr.matrix - annual percentage rate martix [list of definitions/example: Min 0.00% to Max 10.00%]
+lsc.term - loan terms in months based on the lsc.term.matrix
+lsc.term.matrix - term matrix [list of definitions in months(years): 12(1) / 24(2) / 36(3) / 48(4) / 60(5) / 72(6) / 84(7) / 96(8) / 108(9) / 120(10)]
+lsc.cost - ocp total cost of contract instrument
+lsc.balance - borrowers remaining payment balance left on the contract instrument [balance based on the time of request]
+lsc.transfer - borrowers payment transfer information from bank to wallet or wallet to wallet
+lsc.history - borrowers contract instrument lending history [all payments made to OCP since day one of opening account based on the lsc.matrix]
+lsc.duration - time left on the borrowers contract instrument until PIF:paid in full [by numeral: months]
+lsc.release - when the LSC and vehicle title will be released after final payment [expected release date shown]
+lsc.destroy - when and how the borrowers contract instrument will be cancelled [expected contract instrument end date & cause]
+lsc.penalty - what and how the penalty will be imposed to the contract instrument if borrowers fails to make, miss or late payment [expected the penalty cost based on the lsc.penalty.matrix]
+lsc.penalty.matrix - penalty matrix [list of definitions]
+lsc.vehicle - status of borrowers VSC [vsc.vservices] performed [open, closed, pending or arbitration]
+lsc.dmv - status of the vehicle dmv records and matrix [mechanics liens or liens]
+lsc.dmv.matrix - dmv polling and penalty matrix [list of definitions] 
+lsc.library - OCP lending data codes [backend]
+
+payment:incoming
+
+lsc.payment - payment matrix [list of definitions]
+lsc.payment.ai - OCP AI:artificial intelligence matrix [list of definitions]
+lsc.payment.amount - borrowers monthly payment amount [either in KarTokens or USD and any other currencies]
+lsc.payment.type - payment & currency type
+lsc.payment.owner - borrowers payment information [wallet or bank name, address, contact, policy number and policy type]
+lsc.payment.time - time stamp of the payment made
+lsc.payment.date - date stamp of the payment made
+lsc.payment.access - list of who has access to payments
+lsc.payment.status - the status of payments either accepted, pending or declined states
+lsc.payment.vehicle - status of vehicle & services performed 
+lsc.payment.balance - members remaining payment balance [balance based on the time of request]
+lsc.payment.transfer - members payment transfer from bank to wallet
+lsc.payment.history - members payment history [all payments made since day one of opening account]
+lsc.payment.location - where the payment is coming from
+lsc.payment.duration - how long the payment is in force
+lsc.payment.release - when a payment will be released for payment
+lsc.payment.destroy - when and how the payment will be cancelled
+lsc.payment.returned - when and how the payment will be returned to the borrower
+lsc.payment.penalty - when a payment will be assessed based on the penalty from dmv records poll
+lsc.payment.dmv - status assessed based on the penalty from dmv records poll
+lsc.payment.library - OCP payment data codes
+
+penalty:imposed [for late, missing, overdraft, insufficient funds, non-payment]
+
+lsc.penalty - penalty matrix [list of functions & definitions]
+lsc.penalty.ai - OCP AI:artificial intelligence matrix [list of definitions]
+lsc.penalty.amount - amount of penalty imposed
+lsc.penalty.type - type of penalty imposed
+lsc.penalty.owner - ocp payment information [wallet or bank name, address, contact, policy number and policy type]
+lsc.penalty.pct - percentage of penalty imposed
+lsc.penalty.time - penalty time stamp of payment made or notice made
+lsc.penalty.date - penalty date stamp of payment made or notice made
+lsc.penalty.access - list of who has access to the penalty
+lsc.penalty.status - status of the penalty [open / pending or closed]
+lsc.penalty.vehicle - status of vehicle & services performed or not-performed
+lsc.penalty.balance - total balance of the penalty made to date
+lsc.penalty.transfer - penalty payment transfer from bank to wallet or wallet to wallet
+lsc.penalty.history - penalty payment history [ocp payments made since day one of member opening account]
+lsc.penalty.location - where the penalty payment is coming from bank to wallet or wallet to wallet
+lsc.penalty.duration - how long the penalty is in force
+lsc.penalty.release - when a penalty payment will be released for payment
+lsc.penalty.destroy - when and how the penalty will be cancelled or stopped/paused
+lsc.penalty.returned - when and how the payment will be returned to the borrower [if normal payment was made before penalty was incurred]
+lsc.penalty.dmv - status assessed based on the penalty matrix from dmv records poll
+lsc.penalty.library -  OCP penalty data codes
+
+payment:outgoing [refunds or overpayment, if any]
+
+lsc.payout - bills matrix [list of functions & definitions]
+lsc.payout.ai - OCP AI:artificial intelligence matrix [list of definitions]
+lsc.payout.amount - borrowers bill amount [either in KarTokens or USD and any other currencies]
+lsc.payout.type - bill type [list of functions & definitions]
+lsc.payout.owner - who owns the bill payment [wallet or bank name, address, contact, policy number and policy type]
+lsc.payout.time - borrowers time stamp of payment made
+lsc.payout.date - borrowers date stamp of payment made
+lsc.payout.access - list of who has access and when to payout payments
+lsc.payout.status - status of the payout of refund or overpayment claim [open or closed]
+lsc.payout.balance - balance of payout paid made to date
+lsc.payout.transfer - status of payment transfer from bank to wallet or wallet to bank
+lsc.payout.history - payment history [ocp payments made since day one of member opening account]
+lsc.payout.location - where the payment is coming from
+lsc.payout.duration - how long the payout payment is in force
+lsc.payout.release - when a payment will be released for payment
+lsc.payout.destroy - when and how the payment will be cancelled or stopped
+lsc.payout.returned - when and how the payment will be returned if the payout has been paid based on the VSC & LSC status
+lsc.payout.penalty - when a payment will be assessed based on the penalty based on the VSC & LSC status and records poll on lsc.penalty
+lsc.payout.dmv - status assessed based on the penalty from dmv records poll
+lsc.payout.library - OCP payout data codes
