@@ -54,7 +54,7 @@ DMV Smart Contract codes related to the OCP Karchain network platform.
 
 acronym:dmv Department of Motor Vehicles 
 
-info:dmv command & comtrol
+info:dmv command & control
 
 vsc.dmv - dmv data records, matrix & information [list of function definitions]
 vsc.dmv.matrix - dmv polling and penalty matrix [list of definitions]
